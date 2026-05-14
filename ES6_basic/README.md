@@ -1,1 +1,1 @@
-This is about the ES6
+This is about the cores of js and ECMAscript
