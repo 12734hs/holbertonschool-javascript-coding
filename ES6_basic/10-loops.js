@@ -1,7 +1,9 @@
 export default function appendToEachArrayValue(array, appendString) {
-    const dict = array.entries()
-    for (let [index, element] of dict) {
-    array[index] = appendString + element;
+    let idx = 0;
+
+    for (let element of array) {
+        array[idx] = appendString + element;
+        idx++;
   }
   return array;
 }
