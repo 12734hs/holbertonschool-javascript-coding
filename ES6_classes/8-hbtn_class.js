@@ -13,10 +13,10 @@ export default class HolbertonClass {
     }
 
     toString() {
-        return this._size
+        return this.location
     }
 
     toNumber() {
-        return this._location
+        return this.size
     }
 }
