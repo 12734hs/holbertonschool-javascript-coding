@@ -1,0 +1,1 @@
+ES6_promises, this part are about the promises in JS
