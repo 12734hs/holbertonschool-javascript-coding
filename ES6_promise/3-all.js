@@ -12,4 +12,5 @@ export default function handleProfileSignup(createUser, uploadPhoto) {
         .catch(() => console.log('Signup system offline'))
 
     console.log(`${base.body} ${user.firstName} ${user.lastName}`)
+    return Promise
 }
